@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "WLAN-Switch extension",
+  "description": "Extension to switch WLAN on and off",
+  "developer_name": "Niels Kobschätzki",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "wlan_kw",
+      "type": "keyword",
+      "name": "wlan",
+      "description": "WLAN switch",
+      "default_value": "wlan"
+    }
+  ]
+}
